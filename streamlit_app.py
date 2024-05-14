@@ -1,18 +1,20 @@
+
+ 
 import streamlit as st
 import pandas as pd
- 
-st.write("""
-# My first app
-Hello *world!*
-""")
 
+# Set the page configuration
 st.set_page_config(
     page_title="Percent change for Pueblo, CO",
     page_icon="✅",
     layout="wide",
 )
 
-
+# Write the title and introductory text
+st.write("""
+# My first app
+Hello *world!*
+""")
 
 # Load the CSV data
 csv_file = "percentage_change.csv"
